@@ -1,0 +1,119 @@
+body {
+  margin: 0px;
+  font-family: "Quicksand", sans-serif;
+  text-align: center;
+}
+/*header part*/
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 60px;
+  position: absolute;
+  width: 100%;
+  box-sizing: border-box;
+  top: 0;
+  left: 0;
+}
+#nav-bar {
+  display: flex;
+}
+
+a {
+  text-decoration: none;
+  margin: 10px;
+}
+
+#logo a {
+  font-size: 50px;
+  font-family: "Oleo Script", cursive;
+  color: rgb(245, 243, 160);
+  text-shadow: 1px 1px 2px rgb(0, 0, 0);
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 0;
+  transition: color 100ms ease-in 40ms;
+}
+#logo a:hover {
+  color: rgb(243, 243, 187);
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav a {
+  color: rgb(255, 249, 79);
+  font-size: 20px;
+  padding: 12px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+  text-transform: capitalize;
+  border-radius: 6px;
+  transition: background-color 150ms ease-in 30ms;
+}
+nav a:hover {
+  color: rgb(77, 77, 77);
+  background-color: rgb(255, 251, 0);
+}
+nav li {
+  margin-left: 20px;
+}
+
+/*footer part*/
+footer {
+  background: linear-gradient(90deg, rgb(7, 7, 7), rgb(32, 32, 32));
+  width: 100%;
+  position: relative;
+  padding: 20px 0;
+}
+#contacts {
+  display: flex;
+  justify-content: center;
+}
+#contacts img {
+  height: 70px;
+  width: 70px;
+  object-fit: cover;
+  /* width:100%;
+  height: 100%; */
+}
+/* #contacts li{
+  padding: 30px 90px; */
+
+/* width:80px;
+  height: 80px; */
+
+#contacts ul {
+  display: flex;
+  padding: 0;
+}
+
+#contacts li {
+  margin: auto 100px;
+  padding: 5px;
+  border-radius: 30px;
+  transition: background-color 100ms ease-in 50ms;
+}
+#contacts li:hover {
+  box-shadow: 2px 3px 3px rgb(245, 243, 160);
+}
+#face:hover {
+  background-color: #3b5998;
+}
+#insta:hover {
+  background-color: #8a3ab9;
+}
+
+h6 {
+  color: bisque;
+  font-size: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: italic;
+  text-align: end;
+  right: 20px;
+  bottom: 20px;
+  margin: 0;
+  position: absolute;
+}
